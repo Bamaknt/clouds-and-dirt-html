@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -13,11 +14,16 @@ body {
     line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
@@ -27,7 +33,10 @@ table {
     border-spacing: 0;
 }
 
-button, input, textarea, select {
+button,
+input,
+textarea,
+select {
     font: inherit;
     color: inherit;
     border: none;
@@ -38,4 +47,131 @@ button, input, textarea, select {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.container-4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    min-height: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.shogun-image {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 40%;
+
+}
+
+.shoe-photo {
+    background-image: url(https://i.shgcdn.com/e6a8c626-9f0a-4118-883f-78dd598d7fb8/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+strong {
+    font-weight: bold;
+
+}
+
+.shoe-class {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.description {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 800px;
+    display: flex;
+    width: 921.6px;
+    min-height: inherit;
+    max-height: inherit;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.left-text {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-right: 60px;
+
+}
+
+.second-text {
+    font-family: 'Georgia', serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.ytp-cued-thumbnail-overlay-image {
+    margin: 5px 50px 35px 25%;
+}
+
+.main-class {
+    background-image: url(https://i.shgcdn.com/99b7772b-7005-4273-b3b7-f6cfd0f1d04a/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 450px;
+    background-position: center center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: interstate, arial;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #005587;
+    display: block;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0.75em;
+    margin-top: 5%;
+}
+
+.main-video {
+    margin-left: 10.7%;
+    padding: 2px;
+    max-width: 800px;
+    display: flex;
+    max-height: inherit;
+    justify-content: space-between;
+    align-items: normal;
+    flex-direction: row;
+
+}
+
+.ytp-cued-thumbnail-overlay-image-1 {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.image-scroll {
+    margin-right: 0.5%;
+    width: auto;
+}
+
+.description-text {
+    margin-left: 30%;
+    margin-bottom: auto;
 }
