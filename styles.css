@@ -7,7 +7,8 @@
 
 html,
 body {
-    height: 100%;
+    max-height: 100%;
+    font-family: interstate, arial;
 }
 
 body {
@@ -81,9 +82,7 @@ strong {
 }
 
 .shoe-class {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5;
+    font-size: 0.7rem;
     color: #555;
 }
 
@@ -111,11 +110,9 @@ strong {
 }
 
 .second-text {
-    font-family: 'Georgia', serif;
-    font-size: 0.9rem;
-    line-height: 1.6;
+    font-size: 1.5rem;
     color: #333;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .ytp-cued-thumbnail-overlay-image {
