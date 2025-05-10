@@ -1,41 +1,140 @@
-/* Reset all styles */
-* {
+.uppercase {
+    text-transform: uppercase;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: 0.1vw;
+    background: rgb(242, 242, 242);
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+.uppercase p {
+    margin: 0 0 2px;
+}
+.p {
+    font-style: normal;
+    line-height: 1.6em;
 }
 
-html, body {
-    height: 100%;
-}
+.wrap {
+    position: relative;
+    padding-top: 0;
+    transition: linear;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    background: #fefefe;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 8px;
+    }
 
-body {
-    line-height: 1;
+.sign-in {
+    text-transform: uppercase;
+    color: rgb(0, 86, 135);
+    font-size: 14px;
+    font-weight: bold;   
 }
-
-ol, ul {
-    list-style: none;
-}
-
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-button, input, textarea, select {
-    font: inherit;
-    color: inherit;
-    border: none;
-    background: none;
-    padding: 0;
-}
-
-a {
+.sign-in a {
     text-decoration: none;
-    color: inherit;
 }
+
+.logo-menu {
+    background: rgb(0, 86, 135);
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    align-items: auto;
+    justify-content: space-between;
+    margin: 0 0 0 0px;
+    padding: 0;
+    float: auto;
+}
+
+.social-media {
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 86, 135);
+    width: 7em;
+}
+
+.shopping {
+    margin-left: 1200px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: auto;
+    align-items: center;
+    padding-right: 16px;
+    color: rgb(0, 86, 135);
+    width: 9em;
+
+}
+
+.kswiss-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu {
+    margin-right: 300px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-weight: bold;
+    
+}
+li a{
+    color: #fefefe;
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+li a:hover{
+    color: white; 
+}
+li a::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: white;
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    opacity: 0;
+}
+li a:hover::after{
+    opacity: 1;
+}
+.logo-cd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background: beige;
+    padding-bottom: 40px;
+
+}
+
+
+
