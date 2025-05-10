@@ -37,8 +37,10 @@
     text-transform: uppercase;
     color: rgb(0, 86, 135);
     font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;   
+    font-weight: bold;   
+}
+.sign-in a {
+    text-decoration: none;
 }
 
 .logo-menu {
@@ -123,3 +125,16 @@ li a::after{
 li a:hover::after{
     opacity: 1;
 }
+.logo-cd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background: beige;
+    padding-bottom: 40px;
+
+}
+
+
+
