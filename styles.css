@@ -172,7 +172,15 @@ h2 {
 }
 
 .foto-name {
-    margin: 0;
+    text-align: center;
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 1.6em;
+}
+
+.vide {
+    display: flex;
+    flex-direction: column;
 }
 
 .before-last {
@@ -182,6 +190,11 @@ h2 {
     min-height: 420px;
     background-position: center;
     background-attachment: fixed;
+}
+
+.t-desc {
+    text-align: center;
+    margin-top: 5%;
 }
 
 .last-image {
