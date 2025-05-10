@@ -173,9 +173,16 @@ h2 {
 
 .foto-name {
     text-align: center;
-    margin: 0 0 15px;
+    margin: 2% 0 15px;
     font-style: normal;
     line-height: 1.6em;
+    font-family: interstate,
+        arial;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: none;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
 }
 
 .vide {
@@ -211,7 +218,7 @@ h2 {
     height: 629.6px;
     display: inline-block;
     margin-left: 15%;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .sketches {
