@@ -50,7 +50,7 @@ a {
     color: inherit;
 }
 
-.container-4 {
+.logo-image {
     margin-top: 20px;
     margin-bottom: 10px;
     padding-top: 40px;
@@ -94,7 +94,6 @@ strong {
     width: 921.6px;
     min-height: inherit;
     max-height: inherit;
-    justify-content: space-between;
     align-items: normal;
 }
 
@@ -115,7 +114,7 @@ strong {
     margin-bottom: 20px;
 }
 
-.ytp-cued-thumbnail-overlay-image {
+.first-youtube-video {
     margin: 5px 50px 35px 25%;
 }
 
@@ -147,7 +146,7 @@ h2 {
 }
 
 .main-video {
-    margin-left: 10.7%;
+    margin-left: 6.1%;
     padding: 2px;
     max-width: 800px;
     display: flex;
@@ -158,7 +157,7 @@ h2 {
 
 }
 
-.ytp-cued-thumbnail-overlay-image-1 {
+.youtube-videos {
     width: 100%;
     margin-right: 10px;
 }
@@ -169,6 +168,111 @@ h2 {
 }
 
 .description-text {
-    margin-left: 30%;
     margin-bottom: auto;
+}
+
+.foto-name {
+    margin: 0;
+}
+
+.before-last {
+    background-image: url(https://i.shgcdn.com/09405e4d-22af-49e2-8057-ff1e3a387550/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.last-image {
+    background-image: url(https://i.shgcdn.com/eb8c7374-b3bf-49c5-a1eb-f5f38667b094/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 450px;
+    background-position: center center;
+}
+
+.big-shoe {
+    width: 1200px;
+    height: 629.6px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.sketches {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 1200px;
+    max-height: 1200px
+}
+
+footer {
+    background-color: #005587;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.text-after-sketches {
+    font-family: interstate,
+        arial;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #005587;
+    display: block;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+@media (30em < width < 50em) {
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .logo-image {
+        max-width: 200px;
+    }
+
+    .shoe-photo {
+        width: 100%;
+    }
+
+    .gallery-image {
+        min-height: 200px;
+    }
+
+    .description {
+        padding: 1rem;
+    }
+
+    .main-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-youtube-video {
+        margin-left: -15%;
+        width: -10%;
+    }
 }
