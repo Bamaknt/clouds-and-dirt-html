@@ -77,7 +77,6 @@
     padding-right: 16px;
     color: rgb(0, 86, 135);
     width: 9em;
-
 }
 
 .kswiss-logo {
@@ -93,15 +92,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-li {
+.menu li {
     display: inline-block;
     padding-top: 20px;
     margin-left: 10px;
     font-weight: bold;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
-li a{
+.menu li a{
     color: #fefefe;
     font-size: 15px;
     font-weight: 200;
@@ -109,10 +107,10 @@ li a{
     text-transform: uppercase;
     position: relative;
 }
-li a:hover{
+.menu li a:hover{
     color: white; 
 }
-li a::after{
+.menu li a::after{
     content: '';
     height: 1px;
     width: 100%;
@@ -122,7 +120,7 @@ li a::after{
     bottom: -16px;
     opacity: 0;
 }
-li a:hover::after{
+.menu li a:hover::after{
     opacity: 1;
 }
 .logo-cd {
@@ -133,8 +131,4 @@ li a:hover::after{
     box-sizing: border-box;
     background: beige;
     padding-bottom: 40px;
-
 }
-
-
-
