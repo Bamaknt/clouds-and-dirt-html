@@ -119,6 +119,11 @@ strong {
     margin: 5px 50px 35px 25%;
 }
 
+.first-youtube-video iframe {
+    width: 950px;
+    height: 490px;
+}
+
 .main-class {
     background-image: url(https://i.shgcdn.com/99b7772b-7005-4273-b3b7-f6cfd0f1d04a/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
     background-repeat: no-repeat;
@@ -400,8 +405,42 @@ footer {
 @media screen and (max-width:600px) {
     .logo-image {
         margin: auto;
-        width: 50%;
+        width: 20%;
         display: block;
+    }
+
+    .shogun-image {
+        margin-left: 0;
+    }
+
+    .shoe-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 340px;
+        background-attachment: unset;
+        background-position: center;
+    }
+
+    .description {
+        max-width: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .first-youtube-video iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-class {
+        background-attachment: unset;
+        background-size: contain;
+    }
+
+    .main-video {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
 }
