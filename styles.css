@@ -270,6 +270,7 @@ footer {
 .first-image-slideshow-container img {
     vertical-align: middle;
 }
+
 /*
 @media screen and (max-width:375px) {
     .first-image-slideshow-container {
@@ -396,6 +397,11 @@ footer {
         padding-top: 20px;
     }
 }*/
-@media screen and (max-width:600px){
-    
+@media screen and (max-width:600px) {
+    .logo-image {
+        margin: auto;
+        width: 50%;
+        display: block;
+    }
+
 }
