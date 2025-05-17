@@ -57,6 +57,7 @@ a {
     min-height: 50px;
     max-width: 100%;
     height: auto;
+
 }
 
 .shogun-image {
@@ -260,7 +261,22 @@ footer {
     text-align: center;
 }
 
-@media (30em < width < 50em) {
+.first-image-slideshow-container {
+    display: none;
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.first-image-slideshow-container img {
+    vertical-align: middle;
+}
+/*
+@media screen and (max-width:375px) {
+    .first-image-slideshow-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     h1 {
         font-size: 1.25rem;
     }
@@ -271,6 +287,7 @@ footer {
 
     .logo-image {
         max-width: 200px;
+        margin-right: 80%;
     }
 
     .shoe-photo {
@@ -289,10 +306,96 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .first-youtube-video {
         margin-left: -15%;
-        width: -10%;
+        width: 100%;
     }
+}
+
+@media screen and (min-width: 768px) {
+    .description {
+        flex-direction: row;
+        max-width: 800px;
+        align-items: flex-start;
+        padding: 50px;
+    }
+
+    .left-text {
+        text-align: left;
+        margin-right: 60px;
+        font-size: 2.5rem;
+    }
+
+    .second-text {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .description-text {
+        text-align: left;
+    }
+
+    .first-youtube-video iframe {
+        width: 950px;
+        height: 490px;
+    }
+
+    .main-video {
+        flex-direction: row;
+        max-width: 1200px;
+    }
+
+    .sketches {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .left-text {
+        font-size: 1.8rem;
+    }
+
+    .second-text {
+        font-size: 1rem;
+    }
+
+    .text-after-sketches {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .shoe-photo,
+    .main-class,
+    .before-last,
+    .last-image {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-text {
+        font-size: 1.5rem;
+    }
+
+    .text-after-sketches {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .logo-image {
+        padding-top: 20px;
+    }
+}*/
+@media screen and (max-width:600px){
+    
 }
