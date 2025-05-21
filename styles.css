@@ -15,6 +15,33 @@ body {
     line-height: 1;
 }
 
+.modal-button {
+    background-color: #005587;
+    display: none;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    height: 80px;
+    border-radius: 0px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.modal-button a {
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-button a:hover {
+    background-color: #002e46;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
 ol,
 ul {
     list-style: none;
@@ -72,7 +99,7 @@ a {
     background-image: url(https://i.shgcdn.com/e6a8c626-9f0a-4118-883f-78dd598d7fb8/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 420px;
+    height: 420px;
     background-position: center;
     background-attachment: fixed;
 }
@@ -403,33 +430,156 @@ footer {
     }
 }*/
 @media screen and (max-width:600px) {
+
+    body,
+    html {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .modal-button {
+        display: flex !important;
+    }
+
     .logo-image {
         margin: auto;
-        width: 20%;
         display: block;
     }
 
     .shogun-image {
-        margin-left: 0;
+        width: 20%;
     }
 
     .shoe-photo {
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 340px;
+        height: 220px;
+        width: 100%;
         background-attachment: unset;
         background-position: center;
     }
 
     .description {
-        max-width: 100%;
         width: 100%;
         padding: 20px;
+    }
+
+    .first-youtube-video {
+        margin: auto;
+        display: block;
+        width: 100%;
     }
 
     .first-youtube-video iframe {
         width: 100%;
         height: auto;
+    }
+
+    .main-class {
+        background-attachment: unset;
+        background-size: contain;
+        width: 100%;
+    }
+
+    .main-video {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .big-shoe {
+        height: 50%;
+        width: 100%;
+        display: block;
+        margin-bottom: 1%;
+    }
+
+    .big-shoe img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*need to fix this: display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;*/
+    .sketches {
+        display: none;
+    }
+
+    .sketches img:first-child {
+        display: initial !important;
+    }
+
+    .before-last {
+        margin-top: 0;
+        margin-bottom: 1px;
+        height: auto;
+    }
+
+    .text-after-sketches {
+        margin-top: 1px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+
+    .last-image {
+        margin-top: 0px;
+        margin-bottom: 1px;
+        height: auto;
+    }
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .modal-button {
+        display: none;
+    }
+
+    .logo-image {
+        margin: auto;
+        display: block;
+    }
+
+    .shogun-image {
+        width: 20%;
+    }
+
+    .shoe-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+        width: 100%;
+        background-attachment: unset;
+        background-position: center;
+    }
+
+    .description {
+        height: 35%;
+        width: 100%;
+    }
+
+    .first-youtube-video {
+        margin: auto;
+        display: block;
+        width: 38%;
+        height: 260px;
+    }
+
+    .first-youtube-video iframe {
+        width: 100%;
+        height: 100%;
+        align-items: center;
     }
 
     .main-class {
@@ -441,6 +591,44 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin: auto;
     }
 
+    .big-shoe {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .big-shoe img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*need to fix this*/
+    .sketches {
+        display: none;
+    }
+
+    .sketches img:first-child {
+        display: initial !important;
+    }
+
+    .before-last {
+        margin-top: 0;
+        margin-bottom: 1px;
+        height: auto;
+    }
+
+    .text-after-sketches {
+        margin-top: 1px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+
+    .last-image {
+        margin-top: 0px;
+        margin-bottom: 1px;
+        height: auto;
+    }
 }
