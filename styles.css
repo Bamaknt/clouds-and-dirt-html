@@ -5,19 +5,53 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+    max-height: 100%;
+    font-family: interstate, arial;
 }
 
 body {
     line-height: 1;
 }
 
-ol, ul {
+.modal-button {
+    background-color: #005587;
+    display: none;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    height: 80px;
+    border-radius: 0px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.modal-button a {
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-button a:hover {
+    background-color: #002e46;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+ol,
+ul {
     list-style: none;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
@@ -27,7 +61,10 @@ table {
     border-spacing: 0;
 }
 
-button, input, textarea, select {
+button,
+input,
+textarea,
+select {
     font: inherit;
     color: inherit;
     border: none;
@@ -38,4 +75,560 @@ button, input, textarea, select {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.logo-image {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    min-height: 50px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.shogun-image {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 40%;
+
+}
+
+.shoe-photo {
+    background-image: url(https://i.shgcdn.com/e6a8c626-9f0a-4118-883f-78dd598d7fb8/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+strong {
+    font-weight: bold;
+
+}
+
+.shoe-class {
+    font-size: 0.7rem;
+    color: #555;
+}
+
+.description {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 800px;
+    display: flex;
+    width: 921.6px;
+    min-height: inherit;
+    max-height: inherit;
+    align-items: normal;
+}
+
+.left-text {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-right: 60px;
+
+}
+
+.second-text {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.first-youtube-video {
+    margin: 5px 50px 35px 25%;
+}
+
+.first-youtube-video iframe {
+    width: 950px;
+    height: 490px;
+}
+
+.main-class {
+    background-image: url(https://i.shgcdn.com/99b7772b-7005-4273-b3b7-f6cfd0f1d04a/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 450px;
+    background-position: center center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: interstate, arial;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #005587;
+    display: block;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0.75em;
+    margin-top: 5%;
+}
+
+.main-video {
+    margin-left: 6.1%;
+    padding: 2px;
+    max-width: 800px;
+    display: flex;
+    max-height: inherit;
+    justify-content: space-between;
+    align-items: normal;
+    flex-direction: row;
+
+}
+
+.youtube-videos {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.image-scroll {
+    margin-right: 0.5%;
+    width: auto;
+}
+
+.description-text {
+    margin-bottom: auto;
+}
+
+.foto-name {
+    text-align: center;
+    margin: 2% 0 15px;
+    font-style: normal;
+    line-height: 1.6em;
+    font-family: interstate,
+        arial;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: none;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+}
+
+.vide {
+    display: flex;
+    flex-direction: column;
+}
+
+.before-last {
+    background-image: url(https://i.shgcdn.com/09405e4d-22af-49e2-8057-ff1e3a387550/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.t-desc {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.last-image {
+    background-image: url(https://i.shgcdn.com/eb8c7374-b3bf-49c5-a1eb-f5f38667b094/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 450px;
+    background-position: center center;
+}
+
+.big-shoe {
+    width: 1200px;
+    height: 629.6px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.sketches {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 1200px;
+    max-height: 1200px
+}
+
+footer {
+    background-color: #005587;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.text-after-sketches {
+    font-family: interstate,
+        arial;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #005587;
+    display: block;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.first-image-slideshow-container {
+    display: none;
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.first-image-slideshow-container img {
+    vertical-align: middle;
+}
+
+/*
+@media screen and (max-width:375px) {
+    .first-image-slideshow-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .logo-image {
+        max-width: 200px;
+        margin-right: 80%;
+    }
+
+    .shoe-photo {
+        width: 100%;
+    }
+
+    .gallery-image {
+        min-height: 200px;
+    }
+
+    .description {
+        padding: 1rem;
+    }
+
+    .main-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .first-youtube-video {
+        margin-left: -15%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .description {
+        flex-direction: row;
+        max-width: 800px;
+        align-items: flex-start;
+        padding: 50px;
+    }
+
+    .left-text {
+        text-align: left;
+        margin-right: 60px;
+        font-size: 2.5rem;
+    }
+
+    .second-text {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .description-text {
+        text-align: left;
+    }
+
+    .first-youtube-video iframe {
+        width: 950px;
+        height: 490px;
+    }
+
+    .main-video {
+        flex-direction: row;
+        max-width: 1200px;
+    }
+
+    .sketches {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .left-text {
+        font-size: 1.8rem;
+    }
+
+    .second-text {
+        font-size: 1rem;
+    }
+
+    .text-after-sketches {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .shoe-photo,
+    .main-class,
+    .before-last,
+    .last-image {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left-text {
+        font-size: 1.5rem;
+    }
+
+    .text-after-sketches {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .logo-image {
+        padding-top: 20px;
+    }
+}*/
+@media screen and (max-width:600px) {
+
+    body,
+    html {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .modal-button {
+        display: flex !important;
+    }
+
+    .logo-image {
+        margin: auto;
+        display: block;
+    }
+
+    .shogun-image {
+        width: 20%;
+    }
+
+    .shoe-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+        width: 100%;
+        background-attachment: unset;
+        background-position: center;
+    }
+
+    .description {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .first-youtube-video {
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .first-youtube-video iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-class {
+        background-attachment: unset;
+        background-size: contain;
+        width: 100%;
+    }
+
+    .main-video {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .big-shoe {
+        height: 50%;
+        width: 100%;
+        display: block;
+        margin-bottom: 1%;
+    }
+
+    .big-shoe img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*need to fix this: display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;*/
+    .sketches {
+        display: none;
+    }
+
+    .sketches img:first-child {
+        display: initial !important;
+    }
+
+    .before-last {
+        margin-top: 0;
+        margin-bottom: 1px;
+        height: auto;
+    }
+
+    .text-after-sketches {
+        margin-top: 1px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+
+    .last-image {
+        margin-top: 0px;
+        margin-bottom: 1px;
+        height: auto;
+    }
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .modal-button {
+        display: none;
+    }
+
+    .logo-image {
+        margin: auto;
+        display: block;
+    }
+
+    .shogun-image {
+        width: 20%;
+    }
+
+    .shoe-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 330px;
+        width: 100%;
+        background-attachment: unset;
+        background-position: center;
+    }
+
+    .description {
+        height: 35%;
+        width: 100%;
+    }
+
+    .first-youtube-video {
+        margin: auto;
+        display: block;
+        width: 38%;
+        height: 260px;
+    }
+
+    .first-youtube-video iframe {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .main-class {
+        background-attachment: unset;
+        background-size: contain;
+    }
+
+    .main-video {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .big-shoe {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .big-shoe img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*need to fix this*/
+    .sketches {
+        display: none;
+    }
+
+    .sketches img:first-child {
+        display: initial !important;
+    }
+
+    .before-last {
+        margin-top: 0;
+        margin-bottom: 1px;
+        height: auto;
+    }
+
+    .text-after-sketches {
+        margin-top: 1px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+
+    .last-image {
+        margin-top: 0px;
+        margin-bottom: 1px;
+        height: auto;
+    }
 }
